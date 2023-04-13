@@ -6,6 +6,11 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    extend: {
+      fontFamily: {
+        spartan: ["League Spartan, sans-serif"],
+      },
+    },
     colors: {
       "01": "#7c5dfa",
       "02": "#9277ff",
