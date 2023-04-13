@@ -2,6 +2,6 @@
 
 export default function Home() {
   return (
-    <h1>Invoice App</h1>
+    <h1 className="text-01">Invoice App</h1>
   )
 }
