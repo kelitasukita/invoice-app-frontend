@@ -8,12 +8,20 @@ module.exports = {
   theme: {
     screens: {
       phone: "425px",
+      desktop: "1440px",
     },
     height: {
-      "nav-phone": "72px",
+      72: "72px",
+      0: "0px",
+      103: "103px",
     },
     width: {
-      "nav-phone": "425px",
+      425: "425px",
+      72: "72px",
+      103: "103px",
+    },
+    borderRadius: {
+      navRadius: "20px",
     },
     extend: {
       fontFamily: {
