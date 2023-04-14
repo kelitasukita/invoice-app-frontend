@@ -6,12 +6,17 @@ export default function Navbar() {
       <div >
         <Image src="/assets/logo-nav.png" width="72" height="72" alt="logotipo" />
       </div>
-      <div>
-        <Image src="/assets/icon-moon.svg" width="20" height="20" alt="logotipo" />
-      </div>
-      <div>
-        <Image src="/assets/image-avatar.jpg" width="32" height="32" alt="logotipo"
-          className="rounded-full mr-6" />
+      <div className="flex justify-end items-center">
+        <div className="m-l-">
+          <Image src="/assets/icon-moon.svg" width="20" height="20" alt="logotipo" />
+        </div>
+        <div>
+          <div className="border-r border-solid border-nav-border-color h-nav-phone" />
+        </div>
+        <div>
+          <Image src="/assets/image-avatar.jpg" width="32" height="32" alt="logotipo"
+            className="rounded-full mr-6" />
+        </div>
       </div>
     </nav>
   )
