@@ -6,11 +6,21 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      phone: "425px",
+    },
+    height: {
+      "nav-phone": "72px",
+    },
+    width: {
+      "nav-phone": "425px",
+    },
     extend: {
       fontFamily: {
         spartan: ["League Spartan, sans-serif"],
       },
     },
+
     colors: {
       "01": "#7c5dfa",
       "02": "#9277ff",
@@ -22,8 +32,9 @@ module.exports = {
       "08": "#0c0e16",
       "09": "#ec5757",
       10: "#ff9797",
-      11: "#f8f8f8",
+      11: "#f2f2f2",
       12: "#141625",
+      "nav-bg-light": "#373B53",
     },
   },
   plugins: [],
