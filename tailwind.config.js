@@ -35,6 +35,7 @@ module.exports = {
       11: "#f2f2f2",
       12: "#141625",
       "nav-bg-light": "#373B53",
+      "nav-border-color": "#494e6e",
     },
   },
   plugins: [],
