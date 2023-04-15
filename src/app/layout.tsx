@@ -16,10 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className='bg-11' >
-        <Navbar />
-        <main className='px-6 py-8 sm:px-12 sm:py-16'>
-          <AddInvoice />
-        </main>
+
         {children}
       </body>
     </html>
