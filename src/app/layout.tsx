@@ -1,3 +1,4 @@
+import AddInvoice from './components/AddInvoice'
 import Navbar from './components/Navbar'
 import './globals.css'
 
@@ -16,6 +17,9 @@ export default function RootLayout({
     <html lang="en">
       <body className='bg-11' >
         <Navbar />
+        <main className='px-6 pt-8'>
+          <AddInvoice />
+        </main>
         {children}
       </body>
     </html>
