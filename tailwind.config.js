@@ -16,12 +16,14 @@ module.exports = {
         0: "0px",
         103: "103px",
         44: "44px",
+        48: "48px",
       },
       width: {
         425: "425px",
         72: "72px",
         103: "103px",
         90: "90px",
+        150: "150px",
       },
       borderRadius: {
         navRadius: "28px",
