@@ -17,10 +17,11 @@ export default function AddInvoice() {
         </div>
         <div>
           <div>
-            <div className="w-90 h-44 bg-02 rounded-full p-1.5">
+            <div className="flex justify-between items-center w-90 h-44 bg-02 rounded-full p-1.5">
               <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full " >
                 <img className="" src="/assets/icon-plus.svg" alt="plus signal" />
               </div>
+              <p className="text-base text-white font-bold mr-2">New</p>
             </div>
           </div>
         </div>
