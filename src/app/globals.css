@@ -7,3 +7,22 @@
 html {
   @apply font-spartan;
 }
+
+.heading-l {
+  @apply text-4xl leading-8 -tracking-1 font-bold;
+}
+.heading-m {
+  @apply text-2xl leading-5.5 -tracking-0.75 font-bold;
+}
+.heading-s {
+  @apply text-base -tracking-0.25 font-bold;
+}
+.heading-s-variant {
+  @apply text-base leading-4 -tracking-0.25 font-bold;
+}
+.body {
+  @apply text-sm leading-4.5 -tracking-0.1 font-medium;
+}
+.body-variant {
+  @apply text-sm leading-4 -tracking-0.25 font-medium;
+}
