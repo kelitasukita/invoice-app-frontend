@@ -6,26 +6,38 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      phone: "425px",
-      desktop: "1440px",
-    },
-    height: {
-      72: "72px",
-      0: "0px",
-      103: "103px",
-    },
-    width: {
-      425: "425px",
-      72: "72px",
-      103: "103px",
-    },
-    borderRadius: {
-      navRadius: "20px",
-    },
     extend: {
+      screens: {
+        phone: "425px",
+        desktop: "1280px",
+      },
+      height: {
+        72: "72px",
+        0: "0px",
+        103: "103px",
+        44: "44px",
+      },
+      width: {
+        425: "425px",
+        72: "72px",
+        103: "103px",
+        90: "90px",
+      },
+      borderRadius: {
+        navRadius: "28px",
+      },
       fontFamily: {
         spartan: ["League Spartan, sans-serif"],
+      },
+      letterSpacing: {
+        "-1": "-1px",
+        "-0.75": "-0.75px",
+        "-0.25": "-0.25px",
+        "-0.1": "-0.1px",
+      },
+      lineHeight: {
+        5.5: "22px",
+        4.5: "18px",
       },
     },
 
@@ -44,6 +56,7 @@ module.exports = {
       12: "#141625",
       "nav-bg-light": "#373B53",
       "nav-border-color": "#494e6e",
+      white: "#ffffff",
     },
   },
   plugins: [],
