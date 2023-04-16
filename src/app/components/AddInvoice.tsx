@@ -15,15 +15,16 @@ export default function AddInvoice() {
   useEffect(() => {
     function handleResize() {
       setWidth(getSize());
+      console.log(getSize());
     }
 
     handleResize();
     window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    // return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
-    <article className="flex justify-between items-center">
+    <article className="flex justify-between items-center desktop:w-6-12 desktop:mx-80">
       <div>
         <h2 className="text-08 heading-m sm:text-4xl sm:leading-8 sm:-tracking-1 sm:font-bold " >Invoices</h2>
         <div className="text-06 body-variant sm:text-sm sm:eading-4.5 sm:-tracking-0.1 sm:font-medium">
