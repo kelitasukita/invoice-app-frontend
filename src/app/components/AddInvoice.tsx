@@ -1,16 +1,50 @@
+'use client';
+
+import { useEffect, useState } from "react";
+
+function getSize() {
+  if (typeof window !== "undefined") {
+    return window.innerWidth;
+  }
+  return 0;
+}
 
 export default function AddInvoice() {
+  const [width, setWidth] = useState(0);
+
+  useEffect(() => {
+    function handleResize() {
+      setWidth(getSize());
+    }
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <article className="flex justify-between items-center">
       <div>
         <h2 className="text-08 heading-m sm:text-4xl sm:leading-8 sm:-tracking-1 sm:font-bold " >Invoices</h2>
-        <span className="text-06 body-variant sm:text-sm sm:eading-4.5 sm:-tracking-0.1 sm:font-medium">7 invoices</span>
+        <div className="text-06 body-variant sm:text-sm sm:eading-4.5 sm:-tracking-0.1 sm:font-medium">
+          {width > 450
+            ?
+            (<span>There are 7 total invoices</span>)
+            :
+            (<span> 7 invoices</span>)
+          }
+        </div>
       </div>
 
       <div className="flex justify-center items-center">
         <div className="flex justify-center items-center mr-5">
           <p className="text-base font-bold text-08 leading-4 mr-2 ">
-            Filter
+            {width > 450
+              ?
+              (<span>Filter by status</span>)
+              :
+              (<span>Filter</span>)
+            }
           </p>
           <img className="w-3 h-3" src="/assets/icon-arrow-down.svg" alt="down arrow" />
         </div>
@@ -20,7 +54,16 @@ export default function AddInvoice() {
               <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full " >
                 <img className="" src="/assets/icon-plus.svg" alt="plus signal" />
               </div>
-              <p className="text-base text-white font-bold mr-2">New</p>
+              <div>
+                <p className="text-base text-white font-bold mr-2 sm:mt-1">
+                  {width > 450
+                    ?
+                    (<span>New Invoice</span>)
+                    :
+                    (<span>New</span>)
+                  }
+                </p>
+              </div>
             </div>
           </div>
         </div>
