@@ -59,6 +59,7 @@ module.exports = {
       "nav-bg-light": "#373B53",
       "nav-border-color": "#494e6e",
       white: "#ffffff",
+      paid: "#33D69F",
     },
   },
   plugins: [],
