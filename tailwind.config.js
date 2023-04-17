@@ -41,6 +41,12 @@ module.exports = {
         5.5: "22px",
         4.5: "18px",
       },
+      opacity: {
+        4: "0.06",
+      },
+      boxShadow: {
+        "my-shadow": "0px 10px 10px -10px rgba(72, 84, 159, 0.100397)",
+      },
     },
 
     colors: {
@@ -54,11 +60,11 @@ module.exports = {
       "08": "#0c0e16",
       "09": "#ec5757",
       10: "#ff9797",
-      11: "#f2f2f2",
+      11: "#f8f8fb",
       12: "#141625",
       "nav-bg-light": "#373B53",
       "nav-border-color": "#494e6e",
-      white: "#ffffff",
+      13: "#ffffff",
       paid: "#33D69F",
     },
   },
