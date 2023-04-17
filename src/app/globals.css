@@ -15,7 +15,7 @@ html {
   @apply text-2xl leading-5.5 -tracking-0.75 font-bold;
 }
 .heading-s {
-  @apply text-base -tracking-0.25 font-bold;
+  @apply text-base leading-4 -tracking-0.25 font-bold;
 }
 .heading-s-variant {
   @apply text-base leading-4 -tracking-0.25 font-bold;
