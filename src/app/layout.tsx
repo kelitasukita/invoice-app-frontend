@@ -23,7 +23,7 @@ export default function RootLayout({
           <Navbar />
           <main className='px-6 py-8 sm:px-12 sm:py-16 desktop:w-screen'>
             <AddInvoice />
-            {/* <Invoice /> */}
+            <Invoice />
           </main>
         </div>
         {children}
