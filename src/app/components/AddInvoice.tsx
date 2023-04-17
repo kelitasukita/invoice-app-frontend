@@ -52,11 +52,11 @@ export default function AddInvoice() {
         <div>
           <div>
             <div className="flex justify-between items-center w-90 h-44 bg-02 rounded-full p-1.5 sm:w-150 sm:h-48">
-              <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full " >
+              <div className="flex justify-center items-center w-8 h-8 bg-13 rounded-full " >
                 <img className="" src="/assets/icon-plus.svg" alt="plus signal" />
               </div>
               <div>
-                <p className="text-base text-white font-bold mr-2 sm:mt-1">
+                <p className="text-base text-13 font-bold mr-2 sm:mt-1">
                   {width > 450
                     ?
                     (<span>New Invoice</span>)
