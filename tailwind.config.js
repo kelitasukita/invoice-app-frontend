@@ -5,6 +5,7 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
     "./src/app/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       screens: {
@@ -67,7 +68,6 @@ module.exports = {
       "nav-border-color": "#494e6e",
       13: "#ffffff",
       14: "#ff8f00",
-
       paid: "#33D69F",
     },
   },
