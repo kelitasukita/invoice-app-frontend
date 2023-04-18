@@ -25,7 +25,7 @@ export default function Invoice() {
     //   </div>
     // </article>
 
-    <article className="grid grid-cols-3 grid-rows-3 mt-8 h-32 p-6 bg-13 rounded-lg shadow-my-shadow sm:grid sm:grid-cols-5 sm:grid-rows-1 sm:h-72 sm:justify-center sm:items-center sm:mt-14 sm:px-6 desktop:mx-80">
+    <article className="grid grid-cols-3 grid-rows-3 mt-8 h-32 p-6 bg-13 rounded-lg shadow-my-shadow sm:grid sm:grid-cols-5 sm:grid-rows-1 sm:h-72 sm:justify-center sm:items-center sm:mt-14 sm:px-6 desktop:mx-auto desktop:w-730">
       <h2 className="heading-s text-08">
         <span className="text-07 ">#</span>
         RT3080
