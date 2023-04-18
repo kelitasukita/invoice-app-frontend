@@ -28,7 +28,7 @@ export default function AddInvoice() {
       <div>
         <h2 className="text-08 heading-m sm:text-4xl sm:leading-8 sm:-tracking-1 sm:font-bold " >Invoices</h2>
         <div className="text-06 body-variant sm:text-sm sm:eading-4.5 sm:-tracking-0.1 sm:font-medium">
-          {width > 450
+          {width > 640
             ?
             (<span>There are 7 total invoices</span>)
             :
@@ -40,7 +40,7 @@ export default function AddInvoice() {
       <div className="flex justify-center items-center">
         <div className="flex justify-center items-center mr-5">
           <p className="text-base font-bold text-08 leading-4 mr-2 ">
-            {width > 450
+            {width > 640
               ?
               (<span>Filter by status</span>)
               :
