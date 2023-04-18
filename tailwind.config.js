@@ -66,6 +66,8 @@ module.exports = {
       "nav-bg-light": "#373B53",
       "nav-border-color": "#494e6e",
       13: "#ffffff",
+      14: "#ff8f00",
+
       paid: "#33D69F",
     },
   },
