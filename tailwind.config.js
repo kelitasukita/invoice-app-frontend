@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       screens: {
         phone: "640px",
-        desktop: "1280px",
+        desktop: "1008px",
       },
       height: {
         72: "72px",
@@ -24,6 +24,7 @@ module.exports = {
         103: "103px",
         90: "90px",
         150: "150px",
+        730: "730px",
       },
       borderRadius: {
         navRadius: "28px",
