@@ -57,7 +57,7 @@ export default function AddInvoice() {
               </div>
               <div>
                 <p className="text-base text-13 font-bold mr-2 sm:mt-1">
-                  {width > 450
+                  {width > 640
                     ?
                     (<span>New Invoice</span>)
                     :
