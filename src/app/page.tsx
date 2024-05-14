@@ -1,13 +1,10 @@
 
-import AddInvoice from "./components/AddInvoice";
-import Navbar from "./components/Navbar";
+import InvoicesPage from "./invoices/page";
 
 
 export default function Home() {
 
   return (
-    <>
-
-    </>
+    <InvoicesPage />
   )
 }
